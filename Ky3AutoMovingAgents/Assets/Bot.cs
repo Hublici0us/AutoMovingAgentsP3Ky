@@ -18,6 +18,7 @@ public class Bot : MonoBehaviour
     void Seek(Vector3 location)
     {
         agent.SetDestination(location);
+    }
 
     void Flee(Vector3 location)
     {
